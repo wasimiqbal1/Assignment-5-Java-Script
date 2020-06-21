@@ -85,3 +85,41 @@ var my*info = 50;*/
 var b = 5;
 var c = a + b;
 document.write("Sum of " + a + " and " + b + " is " + c);*/
+
+// ==== Chapter-5 & Task-2
+/*var a = 3;
+var b = 5;
+var c = b - a;
+document.write("subtraction from " + b + " to " + a + " is " + c);*/
+
+// ==== Chapter-5 & Task-3
+/*var a;
+document.write("Value after variable declaration is: " + a);
+document.write("<br>");
+a = 5;
+document.write("Initial Value: " + a);
+document.write("<br>");
+++a;
+document.write("Value after increment is : " + a);
+document.write("<br>");
+b = a + 7;
+document.write("Value after addition is : " + b);
+document.write("<br>");
+--b;
+document.write("Value after decrement is : " + b);
+document.write("<br>");
+d = b % b;
+document.write("The reminder is : " + d);
+document.write("<br>");*/
+
+
+
+
+// ==== Chapter-6-9 & Task-3
+/*var subject1 = prompt("Enter Subject 1");
+var subject2 = prompt("Enter Subject 2");
+var subject3 = prompt("Enter Subject 3");
+
+var total = 100;
+
+var sub1obtained = ("Enter " + subject1 + "Marks")*/

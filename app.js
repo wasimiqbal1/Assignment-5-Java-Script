@@ -135,7 +135,7 @@ var convertCelcius = (farenheitTemperature - 32) * 5 / 9;
 document.write(farenheitTemperature + " <sup>oF</sup> " + convertCelcius + " <sup>oC</sup>  ");*/
 
 // ==== Chapter-5 & Task-7
-var heading = ("<h2>Shopping Cart</h2>");
+/*var heading = ("<h2>Shopping Cart</h2>");
 var priceItem1 = 650;
 var priceItem2 = 100;
 var orderQtyItem1 = 3;
@@ -143,4 +143,4 @@ var orderQtyItem2 = 7;
 var shippingCharges = 100;
 var totalCost = (priceItem1 * orderQtyItem1) + (priceItem2 * orderQtyItem2) + shippingCharges
 
-document.write(heading + " Price of item 1 is " + priceItem1 + " <br> " + " <br> " + "Quantity of item 1 is " + orderQtyItem1 + " <br> " + " <br> " + "Price of item 2 is " + priceItem2 + " <br> " + " <br> " + "Quantity of item 2 is " + orderQtyItem2 + " <br> " + " <br> " + "Shipping charges " + shippingCharges + " <br> " + " <br> " + "Total cost of your order is " + totalCost);
+document.write(heading + " Price of item 1 is " + priceItem1 + " <br> " + " <br> " + "Quantity of item 1 is " + orderQtyItem1 + " <br> " + " <br> " + "Price of item 2 is " + priceItem2 + " <br> " + " <br> " + "Quantity of item 2 is " + orderQtyItem2 + " <br> " + " <br> " + "Shipping charges " + shippingCharges + " <br> " + " <br> " + "Total cost of your order is " + totalCost);*/

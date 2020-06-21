@@ -302,3 +302,84 @@ if ("car" < "cat") {
 }
 // output: displayed
 */
+
+// ==== Chapter-9-11 & Task-7
+/*var num = 5;
+var input = +prompt("Guess the secret number");
+if (input == num) {
+    alert("Bingo! Correct answer")
+} else if (input + 1 == num) {
+    alert("Close enough to the correct answer")
+} else {
+    alert("Wrong answer")
+}*/
+
+// ==== Chapter-9-11 & Task-8
+/*var a = +prompt("Enter your number");
+if (a % 3 == 0) {
+    alert("It is divisible by 3")
+} else {
+    alert("it is not divisible by 3")
+}*/
+
+// ==== Chapter-9-11 & Task-9
+/*var a = +prompt("Enter your number");
+if (a % 2 == 0) {
+    alert("It is even number")
+} else {
+    alert("it is odd number")
+}*/
+
+// ==== Chapter-9-11 & Task-10
+/*var T = +prompt("Enter temperature");
+if (T >= 40) {
+    alert("It is too hot outside.")
+} else if (T >= 30) {
+    alert("The weather today is normal.")
+} else if (T >= 20) {
+    alert("Today's weather is cool.")
+} else if (T >= 10) {
+    alert("OMG! Today's weather is so cool.")
+}*/
+
+// ==== Chapter-12-13 & Task-1
+// 1st Method
+/*var charcter = prompt("Enter a character");
+if (charcter >= 'A' && charcter <= 'Z') {
+    alert("It is Upper case letter")
+} else if (charcter >= 'a' && charcter <= 'z') {
+    alert("It is Lower case letter")
+} else if (+charcter) {
+    alert("It is number")
+}
+// 2nd method
+var name = +prompt("Enter a character");
+if (name >= 65 && name <= 90) {
+    alert("It is Upper case letter")
+
+} else if (name >= 97 && name <= 112) {
+    alert("It is lower case letter")
+} else {
+    alert("It is number")
+}*/
+
+// ==== Chapter-12-13 & Task-2
+/*var a = +prompt("Enter first integer");
+var b = +prompt("Enter second integer");
+if (a > b) {
+    alert(a + " is larger value")
+} else if (b > a) {
+    alert(b + " is larger value")
+} else if (a == b) {
+    alert("Both values are equals")
+}*/
+
+// ==== Chapter-12-13 & Task-3
+/*var a = +prompt("Enter a number");
+if (a > 0) {
+    alert("The number is positive")
+} else if (a < 0) {
+    alert("The number is negative")
+} else if (a == 0) {
+    alert("The number is zero")
+}*/

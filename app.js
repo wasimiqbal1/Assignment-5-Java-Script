@@ -243,7 +243,7 @@ if (fuel < 0.25 + "liters") {
 }*/
 
 // ==== Chapter-9-11 & Task-5
-// check alerts messages.
+/*// check alerts messages.
 // a)
 var a = 4;
 if (++a === 5) {
@@ -301,3 +301,4 @@ if ("car" < "cat") {
     alert("car is smaller than cat")
 }
 // output: displayed
+*/

@@ -144,3 +144,160 @@ var shippingCharges = 100;
 var totalCost = (priceItem1 * orderQtyItem1) + (priceItem2 * orderQtyItem2) + shippingCharges
 
 document.write(heading + " Price of item 1 is " + priceItem1 + " <br> " + " <br> " + "Quantity of item 1 is " + orderQtyItem1 + " <br> " + " <br> " + "Price of item 2 is " + priceItem2 + " <br> " + " <br> " + "Quantity of item 2 is " + orderQtyItem2 + " <br> " + " <br> " + "Shipping charges " + shippingCharges + " <br> " + " <br> " + "Total cost of your order is " + totalCost);*/
+
+// ==== Chapter-5 & Task-8
+/*var heading = ("<h2>Mark Sheet</h2>");
+var totalMarks = 980;
+var obtainedMarks = 804;
+var percentage = (804 / 980) * 100;
+document.write(heading + " Total Marks; " + totalMarks + " <br> " + " <br> " + "Obtained Marks: " + obtainedMarks + " <br> " + " <br> " + "Percentage: " + percentage + "%");*/
+
+// ==== Chapter-5 & Task-9
+/*var heading = (" <h2>Currency in PKR</h2>");
+var a = (10 * 104.80) + (25 * 28);
+document.write(heading + "Total currency in PKR: " + a);*/
+
+// ==== Chapter-5 & Task-10
+/*var x = ((10 + 5) * 10) / 2;
+document.write(x);*/
+
+
+// ==== Chapter-5 & Task-11
+/*var a = 2020;
+var b = 1981;
+var myAge = a - b;
+document.write("<h3>Age Calculator</h3>" + "Current year: " + a + " <br> " + "<br> " + "Birth year: " + b + " <br> " + "<br> " + "My age is: " + myAge);*/
+
+// ==== Chapter-5 & Task-13
+/*var radius = 20;
+var cercumferience = 2 * 3.142 * radius;
+var area = 3.142 * radius * 2;
+document.write("<h2>The Geometrizer</h2> " + "Radius of the Circle: " + radius + " <br> " + "<br> " + "The Circumference is: " + cercumferience + " <br> " + "<br> " + "The area is: " + area);*/
+
+// ==== Chapter-5 & Task-14
+/*var Snack = ("Chocolate Cookies");
+var currentAge = 39;
+var maxAge = 60;
+var restage = maxAge - currentAge;
+var perDay = 1;
+var totalSnacksforRestOfLife = restage * perDay;
+document.write("<h2>The Lifetime Supply Calculator</h2> " + "Favourite Snacks: " + Snack + " <br> " + "<br> " + "Current Age: " + currentAge + " <br> " + "<br> " + "Estimated maximum age: " + maxAge + " <br> " + "<br> " + "You will need " + totalSnacksforRestOfLife + " Chocolate cookies to last you until the ripe old age of " + maxAge);*/
+
+// ==== Chapter-6-9 & Task-1
+/*var a = 10;
+document.write("Result " + " <br> " + " <br> " + "The value of a is:  " + a + " <br> ");
+
+var b = ++a;
+var c = a;
+document.write("The value of ++a is:" + b + " <br> " + " <br> " + "Now the value of a is:" + c + " <br> ");
+
+var d = a++;
+var e = a;
+document.write("The value of a++ is:" + d + " <br> " + " <br> " + "Now the value of a is:" + e + " <br> ");
+
+
+var f = --a;
+var g = a;
+document.write("The value of --a is:" + f + " <br> " + " <br> " + "Now the value of a is:" + g + " <br> ");
+
+
+var h = a--;
+var i = a;
+document.write("The value of a-- is:" + h + " <br> " + " <br> " + "Now the value of a is:" + i + " <br> ");*/
+
+// ==== Chapter-6-9 & Task-2
+/*//  a = 2 ,b = 1;
+// --a =1;
+// --a - --b = 1;
+// --a - --b + ++b = 2;
+// --a - --b + ++b + b-- = 3;
+var a = 2,
+    b = 1;
+document.write("a is " + a + " <br> " + " <br> ");
+document.write("b is " + b + " <br> " + " <br> ");
+var result = --a - --b + ++b + b--;
+document.write("Result is " + result);*/
+
+// ==== Chapter-6-9 & Task-3
+/*var a = prompt("Enter your name", "write our name here");
+alert("Congratulations! " + "Mr " + a);*/
+
+// ==== Chapter-9-11 & Task-1
+/*var cityName = prompt("Enter your city name", "Your city name is:");
+if (cityName === "Karachi") {
+    alert("Welcome to city of light")
+}*/
+
+// ==== Chapter-9-11 & Task-2
+/*var a = prompt("Enter your gender", "Your gender is:");
+if (a === "male") {
+    alert("Good morning Sir")
+} else if (a === "female") {
+    alert("Good morning Ma'am")
+}*/
+
+// ==== Chapter-9-11 & Task-4
+/*var fuel = prompt("Enter the amount of remaining fuel in your car(in liters)");
+if (fuel < 0.25 + "liters") {
+    alert("Please refill the fuel in your car")
+}*/
+
+// ==== Chapter-9-11 & Task-5
+// check alerts messages.
+// a)
+var a = 4;
+if (++a === 5) {
+    alert("given condition for variable a is true")
+}
+//  output: displayed.
+
+// b)
+var b = 82;
+if (b++ === 83) {
+    alert("given condition for variable b is true")
+}
+// output: not display.
+
+
+// c)
+var c = 12;
+if (c++ === 13) {
+    alert("condition 1 is true");
+}
+if (c === 13) {
+    alert("condition 2 is true");
+}
+if (++c < 14) {
+    alert("condition3istrue");
+}
+if (c === 14) {
+    alert("condition 4 is true");
+}
+
+// output:conditin 2 and cindition 4 are displayed.
+
+// d)
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost) {
+    alert("The cost equals");
+}
+// output:displayed
+
+// e)
+if (true) {
+    alert("True");
+}
+if (false) {
+    alert("False");
+}
+
+//  output: "true" displayed  
+
+
+// f)
+if ("car" < "cat") {
+    alert("car is smaller than cat")
+}
+// output: displayed
